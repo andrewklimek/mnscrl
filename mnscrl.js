@@ -1,5 +1,8 @@
-// position: the target scrollY property of the window
-// speed: time in pixels per second
+/**
+* MNSCRL: Minimal ScrollTo animation with exponential ease out
+* position: the target scrollY property of the window
+* speed: time in pixels per second
+*/
 function mnscrl(position, speed) {
 
 	var scrollY = window.scrollY || document.documentElement.scrollTop,// documentElement.scrollTop is for IE
