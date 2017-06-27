@@ -1,6 +1,6 @@
 // position: the target scrollY property of the window
 // speed: time in pixels per second
-function easeTo(position, speed) {
+function mnscrl(position, speed) {
 
 	var scrollY = window.scrollY || document.documentElement.scrollTop,// documentElement.scrollTop is for IE
 	speed = speed || 1500,// 1500 pps default
